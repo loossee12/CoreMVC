@@ -1,8 +1,6 @@
 <?php
 class Home extends Controller{
     public function __construct(){
-        $this->getWidget('golink');
-        $this->getWidget('form');
         $this->getWidget('cache');
         $this->getWidget('log');
 
@@ -25,8 +23,6 @@ class Home extends Controller{
             "username" => $username,
             "email"    => $email,
         ]);
-
-
     }
 }
 

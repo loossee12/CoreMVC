@@ -21,7 +21,7 @@ else include 'app/lang/eng.php';
     </head>
     <body>
         <div class="welcome">
-            <div align="center"><img src="http://localhost/core/public/assets/img/logo.png"></div>
+            <div align="center"><img src="/core/public/assets/img/logo.png"></div>
         </div>
         <div align="center"class="text">
             <h1><?=$lang['Wc'].", ".$lang['Welcome']?></h1>
